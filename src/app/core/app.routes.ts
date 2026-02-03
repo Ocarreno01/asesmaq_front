@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
-import { BlankComponent } from '../template/layouts/blank/blank.component';
-import { FullComponent } from '../template/layouts/full/full.component';
+import { BlankComponent } from '../core/layouts/blank/blank.component';
+import { FullComponent } from '../core/layouts/full/full.component';
 
 import { AuthGuard } from './auth/auth.guard';
 
