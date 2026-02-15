@@ -2,7 +2,14 @@
   <div class="p-6 flex items-center justify-between">
     <mat-card-title class="mb-0"> Listado de proyectos </mat-card-title>
 
-    <button mat-flat-button color="primary">Nuevo proyecto</button>
+    <button
+      mat-flat-button
+      color="primary"
+      type="button"
+      (click)="openNewProjectDialog()"
+    >
+      Nuevo proyecto
+    </button>
   </div>
 
   <mat-card-content class="border-t border-border">
